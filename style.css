@@ -1,0 +1,193 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar{
+    height: 50px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+.nav-bar-content{
+    width: 70%;
+    margin: auto;
+}
+.bolt-logo{
+    height: 100%;
+    float: left;
+}
+.bolt-logo img{
+    height: 100%;
+}
+.nav-links{
+    float: right;
+    padding-top: 16px;
+}
+.nav-links a{
+    padding-right: 20px;
+    color: grey;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Helvetica","Arial";
+}
+.site-content{
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+}
+.bolt-image{
+    background-image: url("background-layer.png");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+.image-text{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Arial";
+    font-weight: 100;
+}
+.know-more-link a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+}
+#about{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.about-us-text{
+    width: 100%;
+    text-align: center;
+    color: #139139;
+}
+#about description{
+    width: 100%;
+    text-align: center;
+}
+.about-card-list{
+    width: 100%;
+    position: relative;
+    top: 20px;
+    display: inline-block;
+}
+.card{
+    width: 40%;
+    float: left;
+    padding-left:5%;
+    padding-right: 5%;
+}
+.card img{
+    width: 100%;
+}
+.card p{
+    font-size: small;
+}
+#award{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    background-color: rgb(240,240,240);
+}
+.award-text{
+    width: 100%;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    color: #139139;
+}
+.award-list{
+    width: 100%;
+    display: inline-block;
+}
+.award-card{
+    width: 20%;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    color: grey;
+    font-size: small;
+}
+.award-card img{
+    width: 100%;
+}
+.award-card-title{
+    color: black;
+}
+.award-card-underline{
+    position: relative;
+    bottom: 15px;
+}
+#contact{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    padding-bottom: 50px;
+}
+.contact-title{
+    text-align: center;
+    color: #139139;
+}
+.form{
+    position: relative;
+    top: 20px;
+    display: inline-block;
+}
+.hubspot-form, .details{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.reg-address p{
+    color: grey;
+}
+.contact-card{
+    width: 100%;
+    margin-top: 30px;
+    color: grey;
+}
+.contact-card img{
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin-right: 10px;
+}
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: #139139;
+    position: relative;
+    top: 60px;
+}
+.footer-content{
+    float: left;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 16px;
+    color: white;
+}
+.footer-content img{
+    height: 20px;
+    width: 20px;
+}
+.social-media-icon{
+    padding: 10px;
+}
